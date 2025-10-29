@@ -1,0 +1,16 @@
+@use "./base/reset";
+
+@use "./abstracts/variables";
+@use "./abstracts/functions";
+@use "./abstracts/mixins";
+@use "./abstracts/colors";
+
+@use "./base/globals";
+
+@use "./components/layout/header";
+
+@use "./components/sections/hero-section";
+@use "./components/sections/expertise-section";
+@use "./components/sections/projects-section";
+@use "./components/sections/experience-secrion";
+@use "./components/sections/contact-section";

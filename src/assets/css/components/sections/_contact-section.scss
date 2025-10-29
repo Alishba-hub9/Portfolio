@@ -1,0 +1,86 @@
+@use "/src/assets/css/abstracts/mixins";
+
+.contact-section {
+  background: #0c0b0b;
+  padding: 90px 0 50px 0;
+  color: #fff;
+  font-family: "Poppins-Medium";
+
+  .contact-form {
+    background: rgba(255, 255, 255, 0.03);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(241, 89, 72, 0.25);
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+
+      label {
+        font-size: 16px;
+        margin-bottom: 8px;
+        color: rgb(241, 89, 72);
+      }
+
+      input,
+      textarea {
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+        padding: 12px 15px;
+        color: #fff;
+        font-size: 14px;
+        font-family: "Poppins-Regular";
+        transition: 0.3s ease;
+
+        &:focus {
+          border-color: rgb(241, 89, 72);
+          outline: none;
+          box-shadow: 0 0 15px rgba(241, 89, 72, 0.4);
+        }
+      }
+    }
+
+    .btn-submit {
+      background: rgb(241, 89, 72);
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      padding: 12px 30px;
+      font-weight: 600;
+      font-size: 16px;
+      transition: 0.3s ease;
+
+      &:hover {
+        background: rgb(220, 70, 60);
+        box-shadow: 0 0 20px rgba(241, 89, 72, 0.5);
+      }
+    }
+  }
+
+  .contact-image img {
+    width: 100%;
+  }
+}
+@include mixins.responsive("sm-devices") {
+  .contact-section {
+    .contact-form {
+      box-shadow: 0 0 40px rgba(241, 89, 72, 40%);
+      padding: 20px 20px 30px 20px;
+      .form-group {
+        label {
+          font-size: 14px;
+        }
+        input,
+        textarea {
+          padding: 10px;
+        }
+      }
+      .btn-submit {
+        padding: 6px 10px;
+        font-size: 14px;
+      }
+    }
+  }
+}
