@@ -1,4 +1,5 @@
 import SpiralyzeImg from "../images/Spiralyze-Project.png";
+import AIBusinessIntegratorsImg from "../images/AIBusiness-Integrators.png";
 import BeFoodieImg from "../images/BefoodieHome-project.png";
 import AmazonImg from "../images/Amazon-Project.png";
 import MutualFundsImg from "../images/Mutual-Funds.png";
@@ -16,6 +17,14 @@ const Projects = () => {
         "Converted from Figma to real code using HTML, SCSS, JS, jQuery, Bootstrap, and responsive design. Includes API-based testimonials, npm handling, and JS contact form validation.",
       img: SpiralyzeImg,
       link: "https://spiralyze-bay.vercel.app/",
+    },
+    {
+      title: "AI Business Integrators Website",
+      category: "WordPress Development",
+      description:
+        "A fully developed and customized business website built using WordPress, Elementor, and theme customization. Implemented responsive layouts, section structuring, UI improvements, and performance optimization to deliver a polished, client-ready website.",
+      img: AIBusinessIntegratorsImg,
+      link: "https://aibusinessintegrators.ai/",
     },
     {
       title: "BeFoodieHome",
