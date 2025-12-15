@@ -33,7 +33,7 @@ const Home = () => {
                 transition={{ duration: 0.8 }}
               >
                 <TypeAnimation
-                  sequence={["Frontend Developer", 1500, "Web Developer", 1500, "Creative Coder", 1500]}
+                  sequence={["Frontend Developer", 1500, "Wordpress Developer", 1500, "Creative Coder", 1500]}
                   wrapper="h3"
                   className="typewriter"
                   cursor={true}

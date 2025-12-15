@@ -1,5 +1,8 @@
-import SpiralyzeImg from "../images/Spiralyze-Project.png";
+import EdenOrthoImg from "../images/Eden-Ortho-Project.jpg";
 import AIBusinessIntegratorsImg from "../images/AIBusiness-Integrators.png";
+import Nations195Img from "../images/195-Nations-Project.webp";
+import HeritageImg from "../images/Heritage-Project.jpeg";
+import SpiralyzeImg from "../images/Spiralyze-Project.png";
 import BeFoodieImg from "../images/BefoodieHome-project.png";
 import AmazonImg from "../images/Amazon-Project.png";
 import MutualFundsImg from "../images/Mutual-Funds.png";
@@ -11,12 +14,12 @@ import BlogsProjectImg from "../images/Blogs-project.png";
 const Projects = () => {
   const projects = [
     {
-      title: "Spiralyze Project",
-      category: "Figma to Code Conversion",
+      title: "Eden Ortho Website",
+      category: "Frontend Development",
       description:
-        "Converted from Figma to real code using HTML, SCSS, JS, jQuery, Bootstrap, and responsive design. Includes API-based testimonials, npm handling, and JS contact form validation.",
-      img: SpiralyzeImg,
-      link: "https://spiralyze-bay.vercel.app/",
+        "Designed and developed a responsive orthodontic website using HTML, CSS, and JavaScript with smooth animations and interactive sections. Emphasis on clean UI, structured content flow, and performance-focused frontend development for a professional healthcare brand.",
+      img: EdenOrthoImg,
+      link: "https://www.eden-ortho.com/",
     },
     {
       title: "AI Business Integrators Website",
@@ -25,6 +28,31 @@ const Projects = () => {
         "A fully developed and customized business website built using WordPress, Elementor, and theme customization. Implemented responsive layouts, section structuring, UI improvements, and performance optimization to deliver a polished, client-ready website.",
       img: AIBusinessIntegratorsImg,
       link: "https://aibusinessintegrators.ai/",
+    },
+    {
+      title: "195 Nations E-commerce Store",
+      category: "WordPress E-commerce Development",
+      description:
+        "Developed a responsive WordPress-based e-commerce website using a dedicated e-commerce plugin to manage products, cart, and checkout. Customized layouts, improved UI flow, and ensured cross-device responsiveness for a smooth shopping experience.",
+      img: Nations195Img,
+      link: "https://195nations.com/",
+    },
+    {
+      title: "Heritage Business Website",
+      category: "WordPress Website Development",
+      description:
+        "Developed a responsive business website using WordPress with customized layouts and structured content sections. Focused on clean UI, usability, and responsiveness to ensure a professional online presence aligned with the brand’s identity.",
+      img: HeritageImg,
+      link: "https://heritage.synccloudpos.online/",
+    },
+
+    {
+      title: "Spiralyze Project",
+      category: "Figma to Code Conversion",
+      description:
+        "Converted from Figma to real code using HTML, SCSS, JS, jQuery, Bootstrap, and responsive design. Includes API-based testimonials, npm handling, and JS contact form validation.",
+      img: SpiralyzeImg,
+      link: "https://spiralyze-bay.vercel.app/",
     },
     {
       title: "BeFoodieHome",
