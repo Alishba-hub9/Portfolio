@@ -16,6 +16,13 @@ const Experience = () => {
       description:
         "Developing modern, responsive, and high-performing websites for clients worldwide. Focused on clean UI, optimized performance, and delivering pixel-perfect results using HTML, SCSS, JavaScript, and React.",
     },
+    {
+      role: "Freelance WordPress Developer",
+      company: "Remote",
+      duration: "2023 — Present",
+      description:
+        "Developing responsive and scalable WordPress websites for clients worldwide. Focused on Themes customization, plugin integration, clean UI structure, performance optimization, and delivering reliable, client-ready solutions.",
+    },
   ];
 
   return (

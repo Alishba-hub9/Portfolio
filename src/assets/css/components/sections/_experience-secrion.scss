@@ -21,7 +21,8 @@
     .timeline-item {
       position: relative;
       padding-left: 30px;
-      &:first-child {
+      &:nth-child(1),
+      &:nth-child(2) {
         margin-bottom: 40px;
       }
 
