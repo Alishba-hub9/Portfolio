@@ -10,7 +10,12 @@ const Contact = () => {
           <div className="col-lg-10 col-md-12 col-10">
             <div className="row align-items-end align-items-lg-center gx-lg-5">
               <div className="col-md-7 col-12">
-                <form className="contact-form">
+                <form
+                  className="contact-form"
+                  action="mailto:alishbahanif127@gmail.com"
+                  method="POST"
+                  encType="text/plain"
+                >
                   <div className="form-group">
                     <label htmlFor="name">Full Name</label>
                     <input type="text" id="name" name="name" placeholder="Enter your full name" required />

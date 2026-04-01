@@ -1,4 +1,5 @@
 import EdenOrthoImg from "../images/Eden-Ortho-Project.jpg";
+import InfinityProtectionImg from "../images/Infinity-Protection-Img.png";
 import AIBusinessIntegratorsImg from "../images/AIBusiness-Integrators.png";
 import Nations195Img from "../images/195-Nations-Project.webp";
 import HeritageImg from "../images/Heritage-Project.jpeg";
@@ -13,6 +14,14 @@ import BlogsProjectImg from "../images/Blogs-project.png";
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Infinity Protection Website",
+      category: "Frontend & WordPress Development",
+      description:
+        "Designed and developed a professional security services website using WordPress with responsive layouts and structured service sections. Implemented backend functionality including application forms connected to GoHighLevel (GHL) for lead capture and automation, ensuring smooth user interaction and efficient client data management.",
+      img: InfinityProtectionImg,
+      link: "https://infinityprotection.com/",
+    },
     {
       title: "Eden Ortho Website",
       category: "Frontend Development",

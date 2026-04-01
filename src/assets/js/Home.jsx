@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-import profileImage from "../images/my-img.jpg";
+import profileImage from "../images/my-image.webp";
 
 const Home = () => {
   return (

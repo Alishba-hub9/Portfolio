@@ -4,22 +4,29 @@ const Experience = () => {
   const experiences = [
     {
       role: "Web Developer Intern",
-      company: "WebDevSoft - Web & Software Solutions",
-      duration: "Oct 2025 — Present",
+      company: "WebDevSoft - Web & Software Solutions [Bihar,India]",
+      duration: "Oct 2025 — Present (Part-Time)",
       description:
         "Contributing to live projects by building reusable components, fixing UI issues, and improving front-end functionality. Collaborating with senior developers to enhance UX and maintain coding best practices.",
     },
     {
+      role: "WordPress Web Developer",
+      company: "INFINITY Protection Inc [Florida,US]",
+      duration: "Aug 2025 — Present (Full-Time)",
+      description:
+        "Working as a Full Stack WordPress Developer handling frontend and backend, including theme customization, plugin integration, responsive UI development, SEO optimization, and website performance improvements.",
+    },
+    {
       role: "Freelance Frontend Developer",
       company: "Remote",
-      duration: "2023 — Present",
+      duration: "2022 — Present",
       description:
         "Developing modern, responsive, and high-performing websites for clients worldwide. Focused on clean UI, optimized performance, and delivering pixel-perfect results using HTML, SCSS, JavaScript, and React.",
     },
     {
       role: "Freelance WordPress Developer",
       company: "Remote",
-      duration: "2023 — Present",
+      duration: "2022 — Present",
       description:
         "Developing responsive and scalable WordPress websites for clients worldwide. Focused on Themes customization, plugin integration, clean UI structure, performance optimization, and delivering reliable, client-ready solutions.",
     },
