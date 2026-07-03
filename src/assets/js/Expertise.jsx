@@ -1,5 +1,5 @@
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPhp, FaDatabase, FaSass, FaGitAlt, FaWordpress } from "react-icons/fa";
-import { SiJquery, SiBootstrap, SiMysql, SiVite } from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaJs, FaPhp, FaMobileAlt, FaSass, FaGitAlt, FaWordpress } from "react-icons/fa";
+import { SiJquery, SiBootstrap, SiMysql, SiElementor, SiGoogleanalytics, SiZapier, SiPostman } from "react-icons/si";
 
 const Expertise = () => {
   const skills = [
@@ -9,11 +9,14 @@ const Expertise = () => {
     { icon: <SiJquery />, name: "jQuery" },
     { icon: <FaSass />, name: "SCSS" },
     { icon: <SiBootstrap />, name: "Bootstrap" },
-    { icon: <FaReact />, name: "React" },
-    { icon: <SiVite />, name: "Vite" },
     { icon: <FaPhp />, name: "PHP" },
     { icon: <SiMysql />, name: "MySQL" },
-    { icon: <FaWordpress />, name: "Wordpress" },
+    { icon: <FaWordpress />, name: "WordPress" },
+    { icon: <SiElementor />, name: "Elementor" },
+    { icon: <SiGoogleanalytics />, name: "SEO & Analytics" },
+    { icon: <SiPostman />, name: "API Integrations" },
+    { icon: <SiZapier />, name: "Automation Tools" },
+    { icon: <FaMobileAlt />, name: "Responsive Designs" },
     { icon: <FaGitAlt />, name: "GitHub" },
   ];
 

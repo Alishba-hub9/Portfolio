@@ -25,9 +25,10 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    row-gap: 12px;
     padding: 20px;
     text-align: center;
+    column-gap: 11px;
 
     .skill {
       display: flex;

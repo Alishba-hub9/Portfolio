@@ -1,3 +1,7 @@
+import AutoScout24Img from "../images/AutoScout24Img.png";
+import KellekImg from "../images/KellekImg.png";
+import AlArabianFurnitureImg from "../images/AlArabianFurnitureImg.png";
+import DecorumClassImg from "../images/DecorumClassImg.png";
 import EdenOrthoImg from "../images/Eden-Ortho-Project.jpg";
 import InfinityProtectionImg from "../images/Infinity-Protection-Img.png";
 import AIBusinessIntegratorsImg from "../images/AIBusiness-Integrators.png";
@@ -15,12 +19,44 @@ import BlogsProjectImg from "../images/Blogs-project.png";
 const Projects = () => {
   const projects = [
     {
-      title: "Infinity Protection Website",
+      title: "Infinity Protection",
       category: "Frontend & WordPress Development",
       description:
         "Designed and developed a professional security services website using WordPress with responsive layouts and structured service sections. Implemented backend functionality including application forms connected to GoHighLevel (GHL) for lead capture and automation, ensuring smooth user interaction and efficient client data management.",
       img: InfinityProtectionImg,
       link: "https://infinityprotection.com/",
+    },
+    {
+      title: "AutoScout24 Vehicle Marketplace",
+      category: "WooCommerce E-commerce Development",
+      description:
+        "Developed a responsive vehicle marketplace experience with WooCommerce, featuring structured product listings, category filtering, detailed vehicle pages, cart and checkout functionality, and a smooth browsing experience across desktop, tablet, and mobile devices.",
+      img: AutoScout24Img,
+      link: "https://www.autoscout24.be/",
+    },
+    {
+      title: "DECORUM Class Website",
+      category: "Animated WordPress Event & Registration Platform",
+      description:
+        "Developed and customized a modern, responsive WordPress website for an etiquette and leadership organization, featuring animated visual sections, structured program pages, event and webinar displays, and mobile-friendly user journeys. Implemented registration, mentor, sponsorship, donation, and contact forms, along with event-focused integrations to support program sign-ups, participant management, and community engagement.",
+      img: DecorumClassImg,
+      link: "https://decorumclass.com/",
+    },
+    {
+      title: "KELLEK E-commerce Store",
+      category: "Modern WooCommerce E-commerce Experience",
+      description:
+        "Developed and customized a responsive WooCommerce e-commerce website with product listings, category pages, product detail layouts, cart and checkout functionality with Payment Gateways. Integrated WordPress plugins including Jetpack and Yoast SEO to support site management, performance, and search optimization.",
+      img: KellekImg,
+      link: "https://kellek.com/",
+    },
+    {
+      title: "Al Arabian Furniture",
+      category: "WordPress & WooCommerce Development",
+      description:
+        "Built and customized a responsive furniture e-commerce website using WordPress and WooCommerce, with organized product categories, product detail pages, user-friendly shopping flows, and mobile-responsive layouts designed to showcase furniture collections effectively.",
+      img: AlArabianFurnitureImg,
+      link: "https://alarabianfurniture.com/",
     },
     {
       title: "Eden Ortho Website",
@@ -44,7 +80,7 @@ const Projects = () => {
       description:
         "Developed a responsive WordPress-based e-commerce website using a dedicated e-commerce plugin to manage products, cart, and checkout. Customized layouts, improved UI flow, and ensured cross-device responsiveness for a smooth shopping experience.",
       img: Nations195Img,
-      link: "https://195nations.com/",
+      link: "https://irepair4u.nl/",
     },
     {
       title: "Heritage Business Website",

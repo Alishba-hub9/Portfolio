@@ -3,18 +3,25 @@ import ExperienceImg from "../images/experience-section-img.svg";
 const Experience = () => {
   const experiences = [
     {
-      role: "Web Developer Intern",
-      company: "WebDevSoft - Web & Software Solutions [Bihar,India]",
-      duration: "Oct 2025 — Present (Part-Time)",
-      description:
-        "Contributing to live projects by building reusable components, fixing UI issues, and improving front-end functionality. Collaborating with senior developers to enhance UX and maintain coding best practices.",
-    },
-    {
       role: "WordPress Web Developer",
       company: "INFINITY Protection Inc [Florida,US]",
       duration: "Aug 2025 — Present (Full-Time)",
       description:
         "Working as a Full Stack WordPress Developer handling frontend and backend, including theme customization, plugin integration, responsive UI development, SEO optimization, and website performance improvements.",
+    },
+    {
+      role: "Senior WordPress Developer",
+      company: "Ithon Technology [United States]",
+      duration: "Jun 2025 — Present (Full-Time)",
+      description:
+        "Leading end-to-end WordPress development for client websites, including custom Elementor builds, responsive marketing pages, SEO optimization, and performance improvements. Develop and maintain operational portals with PHP and MySQL databases, handle website migrations, configure CPTs and ACF, and integrate third-party tools, APIs, forms, payment gateways, and automation workflows.",
+    },
+    {
+      role: "Web Developer Intern",
+      company: "WebDevSoft - Web & Software Solutions [Bihar,India]",
+      duration: "Oct 2025 — Present (Part-Time)",
+      description:
+        "Contributing to live projects by building reusable components, fixing UI issues, and improving front-end functionality. Collaborating with senior developers to enhance UX and maintain coding best practices.",
     },
     {
       role: "Freelance Frontend Developer",
@@ -37,7 +44,7 @@ const Experience = () => {
       <div className="container">
         <h2 className="section-heading text-center">EXPERIENCE</h2>
 
-        <div className="row align-items-end gy-4">
+        <div className="row align-items-center gy-4">
           <div className="col-md-5">
             <div className="experience-image">
               <img src={ExperienceImg} alt="Experience" />
