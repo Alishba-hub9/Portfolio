@@ -48,7 +48,7 @@ const Home = () => {
                 </p>
 
                 <div className="buttons">
-                  <a href="/AlishbaHanif-Resume" download="Alishba-Hanif-Resume.pdf" className="btn primary-btn">
+                  <a href="/AlishbaHanif-Resume.pdf" download="Alishba-Hanif-Resume.pdf" className="btn primary-btn">
                     Download CV
                   </a>
 
